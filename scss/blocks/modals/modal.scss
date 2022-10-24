@@ -1,0 +1,36 @@
+.modal, .modalDelivery {
+    background-color: rgb(84, 84, 84, .5);
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal__content {
+    margin-top: 100px;
+    width: 300px;
+    margin: 0 auto;
+
+}
+.modal__payment {
+    position: relative;
+    width: 100%;
+    background-color: rgb(94, 94, 94);
+    border: 2px solid rgb(255, 255, 255);
+}
+.close__modal {
+    position: absolute;
+    right: 8px;
+    cursor: pointer;
+
+}
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
