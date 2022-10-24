@@ -46,6 +46,6 @@ new RunShoes(
     "скидка до 50%",
     "5000грн",
     "2000грн",
-    "img/airjordan.png",
-    ".main .main__running"
+    "img/run-main.jfif",
+    ".main .main__content"
 ).render();

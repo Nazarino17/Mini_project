@@ -1,6 +1,6 @@
 @import 'blocks/main.scss';
 @import 'blocks/modals/modal.scss';
-
+@import 'blocks/tabs.scss';
 
 
 
@@ -11,4 +11,8 @@
 .container {
     max-width: 1100px;
     margin: 0 auto;
+}
+
+html{
+    background-color: #f3f1f4;
 }

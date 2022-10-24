@@ -23,6 +23,8 @@ const modals = () => {
         close.addEventListener('click', () => {
             modal.classList.add('hide');
             modal.classList.remove('show');
+
+            document.body.style.overflow = '';
         });
         
         modal.addEventListener('click', (event) => {
@@ -45,7 +47,7 @@ const modals = () => {
 
     bindModal('.header__payment', '.modal', '.modal .close__modal');
     bindModal('.header__delivery', '.modalDelivery', '.modalDelivery .close__modal');
-    timeModal('.modal', 3000);
+    // timeModal('.modal', 3000);
 }; 
 
 modals();
