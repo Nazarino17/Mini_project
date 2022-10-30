@@ -175,44 +175,51 @@
 
 
 
-    
+
     <div class="modal">
         <div class="modal__content">
             <div class="modal__payment">
-                <div data-close class="close__modal">
-                </div>
-                <div class="modal__pay-title">
-                    Оплата
-                </div>
+                <form action="#">
+                    <div data-close class="close__modal">
+                    </div>
+                    <div class="modal__pay-title">
+                        Оплата
+                    </div>
+    
+                    <div class="modal__list">
+                        <h2>О покупателе</h2>
+    
+                        <input name="phone" type="text" placeholder="Номер">
+                        <input name="name" type="text" placeholder="Имя">
+                        <input name="surname" type="text" placeholder="Фамилия">
 
-
-                <div class="modal__list">
-                    <h2>О покупателе</h2>
-
-                    <input type="text" placeholder="Номер">
-                    <input type="text" placeholder="Имя">
-                    <input type="text" placeholder="Фамилия">
-                </div>
+                        <button>Отправить</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
     <div class="modalDelivery">
         <div class="modal__content">
             <div class="modal__payment">
-                <div data-close class="close__modal">
+                <form action="#">
+                    <div data-close class="close__modal">
                     
-                </div>
-                <div class="modal__pay-title">
-                    Оплата
-                </div>
+                    </div>
+                    <div class="modal__pay-title">
+                        Доставка
+                    </div>
+    
+                    <div class="modal__list">
+                        <h2>О покупателе</h2>
+    
+                        <input name="phone" type="text" placeholder="Номер">
+                        <input name="name" type="text" placeholder="Имя">
+                        <input name="surname" type="text" placeholder="Фамилия">
 
-                <div class="modal__list">
-                    <h2>О покупателе</h2>
-
-                    <input type="text" placeholder="Номер">
-                    <input type="text" placeholder="Имя">
-                    <input type="text" placeholder="Фамилия">
-                </div>
+                        <button>Отправить</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -220,5 +227,6 @@
     <script src="script/RunShoes.js"></script>
     <script src="script/modal.js"></script>
     <script src="script/tabs.js"></script>
+    <script src="script/formData.js"></script>
 </body>
 </html>
